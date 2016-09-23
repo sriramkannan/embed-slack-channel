@@ -10,7 +10,7 @@ Lightweight, simple to use Express js code that is meant for expansion according
 
 1. Download the code
 2. Go to Slack and create a new bot user (if not sure - just google :))
-3. Using a REST client (Chrome has a plugin) call <your-slack-url>/api/rtm.start?token=<token-of-user-created-in-step-2>
+3. Using a REST client (Chrome has a plugin) call \<your-slack-url\>/api/rtm.start?token=\<token-of-user-created-in-step-2\>
 4. From the json response, find the 8-Character id of the slack channel you want to use
 5. Set the channel as an environment variable or replace "process.env.channel" value in routes/channels.js file with the channel id
 6. Same thing for user token
