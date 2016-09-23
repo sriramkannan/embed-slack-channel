@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	h1= title
+	p Following are the messages posted in #{title}
+	for message in messages
+		li #{message.dt} > <b>#{message.username}</b> > #{message.text}
+	<br>
+	<form method="post">
+	<textarea id="postMessage" name="postMessage"></textarea>
+	<br>
+	<input type="submit" value="POST"></input>
+	</form>

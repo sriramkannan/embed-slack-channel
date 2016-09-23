@@ -1,0 +1,22 @@
+body {
+  padding: 20px;
+  font: 14px "Arial", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+li {
+	color: #004488;
+	background-color: #CCCCCC;
+	list-style-type: none;
+	margin-left: 0px;
+	font: 14px "Consolas", monospace;
+	width: 800px;
+}
+
+textarea {
+	width: 800px;
+	height: 50px;
+}
