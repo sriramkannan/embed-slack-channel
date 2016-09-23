@@ -1,5 +1,5 @@
 {
-  "name": "mezo-slack",
+  "name": "embed-slack-channel",
   "version": "0.0.0",
   "private": true,
   "scripts": {
